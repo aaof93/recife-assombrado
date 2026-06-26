@@ -1,14 +1,12 @@
 from pathlib import Path
-
-import pygame
-
 from config import COR_JOGADOR
 
-
+import pygame
 class Jogador:
     imagens_cache = {}
-
+    
     def __init__(self, x, y, personagem):
+        # coordenadas x e y
         self.x = x
         self.y = y
 
@@ -20,6 +18,7 @@ class Jogador:
 
         self.velocidade = 5
 
+        # Personagens
         if self.personagem == "frevo":
             self.velocidade = 6
             self.vida_maxima = 90
@@ -75,7 +74,7 @@ class Jogador:
         Jogador.imagens_cache[chave_cache] = imagem
 
         return imagem
-
+    # Direção dos disparo através do cursor
     def atualizar_direcao_pelo_mouse(self):
         centro_x, centro_y = self.obter_centro()
         mouse_x, mouse_y = pygame.mouse.get_pos()
