@@ -7,10 +7,19 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 
 ---
 ## Índice
-  - [1. Equipe](#equipe)
-    - [1.1 Membros](#membros)
-    - [1.2 Divisão de tarefas](#divisao)
-  -
+- [1. Equipe](#equipe)
+  - [1.1 Membros](#membros)
+  - [1.2 Divisão de tarefas](#divisao)
+- [2. Principais Objetivos](#objetivos)
+- [3. Sobre o Jogo](#sobre)
+- [4. Como Instalar e Rodar o Jogo](#instalacao)
+- [5. Controles](#controles)
+- [6. Itens, Objetos e Recursos do Jogo](#itens)
+- [7. Estrutura / Arquitetura do Projeto](#estrutura)
+- [8. Ferramentas, Bibliotecas e Frameworks Utilizados](#ferramentas)
+- [9. Conceitos da Disciplina Aplicados](#conceitos)
+- [10. Desafios, Erros e Aprendizados](#desafios)
+- [11. Galeria / Capturas de tela](#galeria)
 
 ---
 
@@ -28,7 +37,7 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <img src="https://avatars.githubusercontent.com/u/281218739?v=4" width="100px"><br/>
 <sub><b>Amanda Almeida de Oliveira Figueredo</b></sub>
 </a></br>
-<sub>aaof93</sub>
+<sub>aaof</sub>
 </td>
 
 <td align="center">
@@ -36,7 +45,7 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <img src="https://avatars.githubusercontent.com/u/16636718?v=4" width="100px"><br/>
 <sub><b>Geraldo Camargo Costa Maia Junior</b></sub>
 </a></br>
-<sub>Camargo-Geraldo</sub>
+<sub>gccmj</sub>
 </td>
 
 <td align="center">
@@ -44,7 +53,7 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <img src="https://avatars.githubusercontent.com/u/289440203?v=4" width="100px"><br/>
 <sub><b>Kauan Gabriel de Oliveira</b></sub>
 </a></br>
-<sub>kauan-programmer</sub>
+<sub>kgo</sub>
 </td>
 
 <td align="center">
@@ -52,7 +61,7 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <img src="https://avatars.githubusercontent.com/u/291781644?v=4" width="100px"><br/>
 <sub><b>Lucas de Assis Silva</b></sub>
 </a></br>
-<sub>Lucas-A-Silva00</sub>
+<sub>las11</sub>
 </td>
 
 <td align="center">
@@ -60,7 +69,7 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <img src="https://avatars.githubusercontent.com/u/240080750?v=4" width="100px"><br/>
 <sub><b>Matheus Miranda Borges dos Santos</b></sub>
 </a></br>
-<sub>Matheus-MB1</sub>
+<sub>mmbs2</sub>
 </td>
 
 <td align="center">
@@ -68,7 +77,57 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <img src="https://avatars.githubusercontent.com/u/240080750?v=4" width="100px"><br/>
 <sub><b>Ubiratan Jose Rodrigues de Lima Junior </b></sub>
 </a></br>
-<sub></sub>
+<sub>ujrlj</sub>
 </td>
+</tr>
+</table>
+</div>
 
+---
+
+<a id="divisao"></a>
+### 1.2 Divisão de Tarefas
+
+- **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável 
+- **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável 
+- **Kauan Gabriel de Oliveira <kgo>:** Responsável 
+- **Lucas de Assis Silva<las11>:** Responsável 
+- **Matheus Miranda Borges dos Santos <mmbs2>:** Responsável pela parte do código referente aos coletáveis e pela elaboração do relatório.
+- **Ubiratan Jose Rodrigues de Lima Junior <ujrlj>:** Responsável 
+
+---
+
+<a id="objetivos"></a>
+## 2. Principais Objetivos
+
+- Estruturar o projeto de forma organizada atendendo aos requisitos pré-estabelecidos pelo projeto.
+- Implementar um sistema de coleta com múltiplos tipos de itens e controle de experiência acumulada.
+- Aplicar Lógica de programação e o paradigama de Programação Orientada à Objetos utilizando Python.
+- Desenvolver mecânicas de progressão pela aquisição de experiência e inimigos em ondas com dificuldade crescente ao longo do jogo.
+- Integrar os conceitos trabalhados em sala de aula, ao longo do período letivo, por meio do desenvolvimento de um jogo 2D interativo(movimentação de um objeto capaz de capturar -colecionar- outros três objetos.
+
+---
+
+<a id="sobre"></a>
+## 3. Sobre o Jogo
+
+**Recife Assombrado**  é um jogo no estilo 
+
+### História
+A Passista de Frevo ou o Caboclo de Lança começa a sua jornada no Marco Zero(onde tudo se inicia) e precisam lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
+
+### Personagens
+- **Passista de Frevo** - Persinagem principal e jogável.
+- **Caboclo de Lança** - Personagem principal e jogável.
+- **Ataques da Perna Cabeluda** - Inimigos que provocam dano ao jogador.
+- **Aparições da Emparedada da Rua Nova** - Inimigos que provocam dano ao jogador.
+- **O Homem do Saco** - Inimigos que provocam dano ao jogador.
+
+### Mecânicas de Jogo
+- Movimento livre no mapatop-down.
+- Combate à distâcia por meio de disparos de Lanças.
+- Coleta de Almas do Capibaribe(XP), Fatias de Bolo de Rolo(cura) e Máscaras de Papangu(evento especial-onda que destrói inimigos mais fracos presentes na tela).
+- Evolução de atributos ao subir de nível. 
+
+---
 
