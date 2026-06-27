@@ -3,9 +3,6 @@
 Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a disciplina de Introdução à Programação do curso de Inteligência Artificial - UFPE / Centro de Informática (CIn), período letivo 2026.1, Equipe 3.
 
 ---
-Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com Pygame e POO, inspirado no folclore, cultura e pontos turísticos de Pernambuco.
-
----
 ## Índice
 - [1. Equipe](#equipe)
   - [1.1 Membros](#membros)
@@ -111,7 +108,7 @@ Jogo elaborado no estilo "bullet heaven" (Vampire Survivors) feito em Python com
 <a id="sobre"></a>
 ## 3. Sobre o Jogo
 
-**Recife Assombrado**  é um jogo no estilo 
+**Recife Assombrado** é um jogo no estilo "bullet heaven" (Vampire Survivors) feito em Python com Pygame e POO, inspirado no folclore, cultura e pontos turísticos de Pernambuco.
 
 ### História
 A Passista de Frevo ou o Caboclo de Lança começa a sua jornada no Marco Zero(onde tudo se inicia) e precisam lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
@@ -124,10 +121,49 @@ A Passista de Frevo ou o Caboclo de Lança começa a sua jornada no Marco Zero(o
 - **O Homem do Saco** - Inimigos que provocam dano ao jogador.
 
 ### Mecânicas de Jogo
-- Movimento livre no mapatop-down.
+- Movimento livre no mapa top-down.
 - Combate à distâcia por meio de disparos de Lanças.
 - Coleta de Almas do Capibaribe(XP), Fatias de Bolo de Rolo(cura) e Máscaras de Papangu(evento especial-onda que destrói inimigos mais fracos presentes na tela).
 - Evolução de atributos ao subir de nível. 
 
 ---
+
+<a id="instalacao"></a>
+## 4. Como Instalar e Rodar o Jogo:
+
+### 1. Clone o Repositório
+```bash
+git clone https://github.com/aaof93/sobrevivencia-pernambucana.git
+cd sobrevivencia-pernambucana
+```
+### 2. Criar um ambiente virtual local:
+```bash
+python -m venv .venv
+```
+### 3. Ativar o ambiente virtual:
+
+#### No Windows(PowerShell):
+```bash
+.venv\Scripts\Activate.ps1
+```
+#### No Windows(Prompt CMD tradicional):
+```bash
+.venv\Scripts\Activate.bat
+```
+#### No Linux / Mac:
+```bash
+source .venv/bin/activate
+```
+### 4. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+### 5. Execute o jogo
+```bash
+python src/main.py
+```
+
+<a id="controles"></a>
+## 5. Controles
+
 
