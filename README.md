@@ -12,11 +12,12 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 - [4. Como Instalar e Rodar o Jogo](#instalacao)
 - [5. Controles](#controles)
 - [6. Itens, Objetos e Recursos do Jogo](#itens)
-- [7. Estrutura / Arquitetura do Projeto](#estrutura)
-- [8. Ferramentas, Bibliotecas e Frameworks Utilizados](#ferramentas)
-- [9. Conceitos da Disciplina Aplicados](#conceitos)
-- [10. Desafios, Erros e Aprendizados](#desafios)
-- [11. Galeria / Capturas de tela](#galeria)
+- [7. Personagens Presentes no Jogo](#personagens)
+- [8. Estrutura / Arquitetura do Projeto](#estrutura)
+- [9. Ferramentas, Bibliotecas e Frameworks Utilizados](#ferramentas)
+- [10. Conceitos da Disciplina Aplicados](#conceitos)
+- [11. Desafios, Erros e Aprendizados](#desafios)
+- [12. Galeria / Capturas de tela](#galeria)
 
 ---
 
@@ -182,7 +183,26 @@ python src/main.py
 
 | Item / Recurso | Sprite | Descrição e Utilidade |
 | :---: | :---: | :---: |
-| **Almas do Capibaribe** |<img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/alma.png" width="50px"> | Permite subir de nível, ao ser coletado, o que desencadeia uma escolha entre algumas opções de aprimoramento da jogabilidade do personagem.
-| **Fatias de Bolo de Rolo** |<img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/bolo.png" width="50px"> | Quando coletado recupera uma determinada quantidade de vida do personagem principal.
-| **Máscaras de Papangu** |<img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/mascara.png" width="50px"> | Quando coletado desencadeia um evento especial: uma onda de choque que elimina os inimigos mais fracos presentes na tela.
+| **Almas do Capibaribe** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/alma.png" width="50px"> | Permite subir de nível, ao ser coletado, o que desencadeia uma escolha entre algumas opções de aprimoramento da jogabilidade do personagem.
+| **Fatias de Bolo de Rolo** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/bolo.png" width="50px"> | Quando coletado recupera uma determinada quantidade de vida do personagem principal.
+| **Máscaras de Papangu** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/mascara.png" width="50px"> | Quando coletado desencadeia um evento especial: uma onda de choque que elimina os inimigos mais fracos presentes na tela.
+
+---
+
+## 7. Personagens Presentes no Jogo(Jogador e Inimgos)
+
+| Personagem | Sprite | Descrição |
+| :---: | :---: | :---: |
+| **Passista de Frevo** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/frevo_esquerda.png" width="50px"> | Personagem principal e jogável.
+| **Caboclo de Lança** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/caboclo_esquerda.png" width="50px"> | Personagem principal e jogável.
+| **Ataques da perna Cabeluda** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/perna_cabeluda_esquerda.png" width="50px"> | Inimigos que provocam dano ao jogador.
+| **Aparições da Emparedada da Rua Nova** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/emparedada_esquerda.png" width="50px"> | Inimigos que provocam dano ao jogador.
+| **O Homem do Saco** | <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/homem_saco_esquerda.png" width="50px"> | Inimigos que provocam dano ao jogador.
+
+---
+
+## 8.
+
+
+
 
