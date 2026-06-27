@@ -166,4 +166,23 @@ python src/main.py
 <a id="controles"></a>
 ## 5. Controles
 
+| Ação | Tecla / Entrada |
+|------|----------------|
+| Iniciar o Jogo | (Mouse) Clique botão direito "Jogar" |
+| Selecionar o Personagem | (Mouse) Clique botão direito sobre o personagem desejado |
+| Movimento | W, A, S, D |
+| Mirar | Mouse |
+| Reiniciar(após morte) | (Mouse) Clique botão direito "Jogar Novamente" |
+| Seleção de cartas(durante o jogo) | (Mouse) Clique botão direito sobre a carta desejada |
+
+---
+
+<a id="itens"></a>
+## 6. Itens, Objetos e Recursos do Jogo
+
+| Item / Recurso | Sprite | Descrição e Utilidade |
+| :---: | :---: | :---: |
+| **Almas do Capibaribe** |<img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/alma.png" width="50px"> | Permite subir de nível, ao ser coletado, o que desencadeia uma escolha entre algumas opções de aprimoramento da jogabilidade do personagem.
+| **Fatias de Bolo de Rolo** |<img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/bolo.png" width="50px"> | Quando coletado recupera uma determinada quantidade de vida do personagem principal.
+| **Máscaras de Papangu** |<img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/src/assets/mascara.png" width="50px"> | Quando coletado desencadeia um evento especial: uma onda de choque que elimina os inimigos mais fracos presentes na tela.
 
