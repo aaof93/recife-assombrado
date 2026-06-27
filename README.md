@@ -174,7 +174,7 @@ python src/main.py
 | Movimento | W, A, S, D |
 | Mirar | Mouse |
 | Reiniciar(após morte) | (Mouse) Clique botão direito "Jogar Novamente" |
-| Seleção de cartas(durante o jogo) | (Mouse) Clique botão direito sobre a carta desejada |
+| Seleção de cartas(durante o jogo) | Botões superiores do teclado (1, 2, 3) |
 
 ---
 
