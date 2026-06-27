@@ -1,4 +1,4 @@
-# Recife-Assombrado
+# Recife Assombrado
 ---
 Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a disciplina de Introdução à Programação do curso de Inteligência Artificial - UFPE / Centro de Informática (CIn), período letivo 2026.1, Equipe 3.
 
@@ -232,11 +232,27 @@ python src/main.py
     </td>
     <td width="50%">
       <img src="" alt"Print 2" width="100%">
-      <br><sub>Tela de Game over</sub>
+      <br><sub>Tela de escolha de personagem</sub>
     </td>
-
-
-
-
+    <td width="50%">
+      <img src="" alt"Print 3" width="100%">
+      <br><sub>Tela do jogo em funcionamento 1</sub>
+    </td>
+    <td width="50%">
+      <img src="" alt"Print 4" width="100%">
+      <br><sub>Tela do jogo em funcionamento 2</sub>
+    </td>
+    <td width="50%">
+      <img src="" alt"Print 5" width="100%">
+      <br><sub>Tela de cartas para aprimoramento 1</sub>
+    </td>
+    <td width="50%">
+      <img src="" alt"Print 6" width="100%">
+      <br><sub>Tela de cartas para aprimoramento 2</sub>
+    </td>
+    <td width="50%">
+      <img src="" alt"Print 7" width="100%">
+      <br><sub>Tela de Game over (fim de jogo)</sub>
+    </td>
 
 
