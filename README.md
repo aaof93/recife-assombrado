@@ -12,7 +12,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 - [4. Como Instalar e Rodar o Jogo](#instalacao)
 - [5. Controles](#controles)
 - [6. Itens, Objetos e Recursos do Jogo](#itens)
-- [7. Personagens Presentes no Jogo](#personagens)
+- [7. Personagens Presentes no Jogo(Jogador e Inimigos)](#personagens)
 - [8. Estrutura / Arquitetura do Projeto](#estrutura)
 - [9. Ferramentas, Bibliotecas e Frameworks Utilizados](#ferramentas)
 - [10. Conceitos da Disciplina Aplicados](#conceitos)
@@ -189,7 +189,7 @@ python src/main.py
 
 ---
 
-## 7. Personagens Presentes no Jogo(Jogador e Inimgos)
+## 7. Personagens Presentes no Jogo(Jogador e Inimigos)
 
 | Personagem | Sprite | Descrição |
 | :---: | :---: | :---: |
@@ -201,7 +201,41 @@ python src/main.py
 
 ---
 
-## 8.
+## 8. Estrutura / Arquitetura do Projeto
+
+```text
+📂 projeto
+├──
+```
+
+---
+<a id="ferramentas"></a>
+## 9. Ferramentas, Bibliotecas e Frameworks Utilizados
+
+- **Python**: Linguagem de programação utilizada no desenvolvimento do jogo.
+- **Pygame**: Biblioteca pricipal para desenvolvimento 2D, renderização, eventos e áudio.
+- **Visual Studio Code (VS Code)**: Editor de código para escrita e depuração.
+- **Git & GitHub**: Versionamento de código e colaboração.
+- **w3schools**: Fonte complementar de aprendizado.
+- **Youtube**: Fonte complementar de aprendizado.
+
+---
+<a id="galeria"></a>
+## 12. Galeria / Capturas de tela
+
+<div align="center">
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <img src="" alt"Print 1" width="100%">
+      <br><sub>Tela de Início</sub>
+    </td>
+    <td width="50%">
+      <img src="" alt"Print 2" width="100%">
+      <br><sub>Tela de Game over</sub>
+    </td>
+
+
 
 
 
