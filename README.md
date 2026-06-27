@@ -234,6 +234,8 @@ python src/main.py
       <img src="" alt"Print 2" width="100%">
       <br><sub>Tela de escolha de personagem</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <img src="" alt"Print 3" width="100%">
       <br><sub>Tela do jogo em funcionamento 1</sub>
@@ -242,6 +244,8 @@ python src/main.py
       <img src="" alt"Print 4" width="100%">
       <br><sub>Tela do jogo em funcionamento 2</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <img src="" alt"Print 5" width="100%">
       <br><sub>Tela de cartas para aprimoramento 1</sub>
@@ -250,6 +254,8 @@ python src/main.py
       <img src="" alt"Print 6" width="100%">
       <br><sub>Tela de cartas para aprimoramento 2</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <img src="" alt"Print 7" width="100%">
       <br><sub>Tela de Game over (fim de jogo)</sub>
