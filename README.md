@@ -189,6 +189,7 @@ python src/main.py
 
 ---
 
+<a id="itens"></a>
 ## 7. Personagens Presentes no Jogo(Jogador e Inimigos)
 
 | Personagem | Sprite | Descrição |
@@ -201,6 +202,7 @@ python src/main.py
 
 ---
 
+<a id="estrutura"></a>
 ## 8. Estrutura / Arquitetura do Projeto
 
 ```text
@@ -209,6 +211,7 @@ python src/main.py
 ```
 
 ---
+
 <a id="ferramentas"></a>
 ## 9. Ferramentas, Bibliotecas e Frameworks Utilizados
 
@@ -220,6 +223,36 @@ python src/main.py
 - **Youtube**: Fonte complementar de aprendizado.
 
 ---
+
+<a id="conceitos"></a>
+## 10. Conceitos da Disciplina Aplicados
+
+### Estruturas Condicionais
+Foram utilizadas para compor o comportamento do jogo a partir de decisões lógicas.
+Exemplo: Ao clicar com o mause o botão o jogo inicia; ao pressionar a tecla Esc é possivel retornar ao menu, se selecionados as teclas 1, 2 ou 3, em uma determinada parte do jogo, uma das cartas de aprimoramento são adicionadas ao jogo. Um outro exemplo: se o jogador colide com o inimgo ocorre o evento dano.
+
+### Programação Orientada a Objetos
+O projeto foi estruturado com base em Programação Orientada a Objetos, utilizando Classes, métodos construtores, métodos e atributos para representar entidades como jogador, inimgos e itens coletáveis.
+
+### Funções
+Utilização de funções para agrupar blocos de código reutilizáveis, o que facilita na legibilidade, manutenção e organização do código.
+
+---
+
+<a id="desafios"></a>
+## 11. Desafios, Erros e Aprendizados
+
+### Maior Erro
+A gestão de tempo poderia ter sido melhor abordada pelo grupo. Cada integrante com suas demandas externas tentou dar o melhor de si para ajustar esses entraves, que foram sendo superados para a finalização de cada uma das demandas associadas ao projeto.
+
+### Maior Desafio
+Aprendizado de novas ferramnetas como Git e GitHub e a gestão de tempo na realização de demandas do projeto em meio a outros compromissos externos ao projeto.
+
+### Lições Aprendidas
+A importância do trabalho em equipe ficou evidente ao longo do desenvolvimento do projeto, com integrantes a disposição para auxiliar e tirar dúvidas sobre os novos conceitos e ferramentas, durante as tarefas e demandas, ou dificuldades que surgiram no decorrer do projeto. A importância da gestão do tempo foi essencial para uma boa realização de um projeto desse escopo. Somado a isso, o trabalho colaborativo, atrelado a comunicação dinâmica(por meio de aplicativos), foi essencial para a realização do projeto, apesar das dificuldades enfrentadas com entendimento sobre ferramentas como Git e GitHub. Essas duas ferramentas nos proporcionaram um melhor entendimento de como se realizar trabalhos em equipe em um projeto de multiplas contribuições.
+
+---
+
 <a id="galeria"></a>
 ## 12. Galeria / Capturas de tela
 
