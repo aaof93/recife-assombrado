@@ -267,41 +267,41 @@ A importância do trabalho em equipe ficou evidente ao longo do desenvolvimento 
 <table width="100%">
   <tr>
     <td width="50%">
-      <img src="" alt"Print 1" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print1.png" alt"Print 1" width="100%">
       <br><sub>Tela de Início</sub>
     </td>
     <td width="50%">
-      <img src="" alt"Print 2" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print2.png" alt"Print 2" width="100%">
       <br><sub>Tela de escolha de personagem</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="" alt"Print 3" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print3.png" alt"Print 3" width="100%">
       <br><sub>Tela do jogo em funcionamento 1</sub>
     </td>
     <td width="50%">
-      <img src="" alt"Print 4" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print4.png" alt"Print 4" width="100%">
       <br><sub>Tela do jogo em funcionamento 2</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="" alt"Print 5" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print5.png" alt"Print 5" width="100%">
       <br><sub>Tela de cartas para aprimoramento 1</sub>
     </td>
     <td width="50%">
-      <img src="" alt"Print 6" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print6.png" alt"Print 6" width="100%">
       <br><sub>Tela de cartas para aprimoramento 2</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="" alt"Print 7" width="100%">
-      <br><sub>Tela de Game over (fim de jogo)</sub>
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print7.png" alt"Print 7" width="100%">
+      <br><sub>Tela de cartas para aprimoramento 3</sub>
     </td>
         <td width="50%">
-      <img src="" alt"Print 8" width="100%">
+      <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print8.png" alt"Print 8" width="100%">
       <br><sub>Tela de Game over (fim de jogo)</sub>
     </td>
 
