@@ -119,7 +119,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero(onde tudo se inicia) e precisam lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
 
 <a id="personagens"></a>
-### 🎭 Personagens
+### 🎭 3.2 Personagens
 - **Passista de Frevo** - Persinagem principal e jogável.
 - **Caboclo de Lança** - Personagem principal e jogável.
 - **Ataques da Perna Cabeluda** - Inimigos que provocam dano ao jogador.
@@ -127,7 +127,7 @@ A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero
 - **O Homem do Saco** - Inimigos que provocam dano ao jogador.
 
 <a id="mecanicas"></a>
-### ⚙️ Mecânicas de Jogo
+### ⚙️ 3.3 Mecânicas de Jogo
 - Movimento livre no mapa top-down.
 - Combate à distâcia por meio de disparos de Lanças.
 - Coleta de Almas do Capibaribe(XP), Fatias de Bolo de Rolo(cura) e Máscaras de Papangu(evento especial-onda que destrói inimigos mais fracos presentes na tela).
