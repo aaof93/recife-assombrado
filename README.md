@@ -203,7 +203,7 @@ python src/main.py
 ---
 
 <a id="estrutura"></a>
-## 8. Estrutura / Arquitetura do Projeto
+## 🏠 8. Estrutura / Arquitetura do Projeto
 
 ```text
 📂 projeto
