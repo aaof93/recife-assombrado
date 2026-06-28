@@ -300,5 +300,9 @@ A importância do trabalho em equipe ficou evidente ao longo do desenvolvimento 
       <img src="" alt"Print 7" width="100%">
       <br><sub>Tela de Game over (fim de jogo)</sub>
     </td>
+        <td width="50%">
+      <img src="" alt"Print 8" width="100%">
+      <br><sub>Tela de Game over (fim de jogo)</sub>
+    </td>
 
 
