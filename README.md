@@ -145,7 +145,7 @@ cd sobrevivencia-pernambucana
 ```
 ### 2. Criar um ambiente virtual local:
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 ```
 ### 3. Ativar o ambiente virtual:
 
