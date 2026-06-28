@@ -3,7 +3,7 @@
 Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a disciplina de Introdução à Programação do curso de Inteligência Artificial - UFPE / Centro de Informática (CIn), período letivo 2026.1, Equipe 3.
 
 ---
-## Índice
+## 📑 Índice
 - [1. Equipe](#equipe)
   - [1.1 Membros](#membros)
   - [1.2 Divisão de tarefas](#divisao)
@@ -22,7 +22,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 ---
 
 <a id="equipe"></a>
-## 1. Equipe
+## 👥 1. Equipe
 
 <a id="membros"></a>
 ### 1.1 Membros
@@ -84,7 +84,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 ---
 
 <a id="divisao"></a>
-### 1.2 Divisão de Tarefas
+### 📋 1.2 Divisão de Tarefas
 
 - **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável 
 - **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável 
@@ -96,7 +96,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 ---
 
 <a id="objetivos"></a>
-## 2. Principais Objetivos
+## 🎯 2. Principais Objetivos
 
 - Estruturar o projeto de forma organizada atendendo aos requisitos pré-estabelecidos pelo projeto.
 - Implementar um sistema de coleta com múltiplos tipos de itens e controle de experiência acumulada.
@@ -107,21 +107,21 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 ---
 
 <a id="sobre"></a>
-## 3. Sobre o Jogo
+## ☂️ 3. Sobre o Jogo
 
 **Recife Assombrado** é um jogo no estilo "bullet heaven" (Vampire Survivors) feito em Python com Pygame e POO, inspirado no folclore, cultura e pontos turísticos de Pernambuco.
 
-### História
+### 📜 História
 A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero(onde tudo se inicia) e precisam lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
 
-### Personagens
+### 🎭 Personagens
 - **Passista de Frevo** - Persinagem principal e jogável.
 - **Caboclo de Lança** - Personagem principal e jogável.
 - **Ataques da Perna Cabeluda** - Inimigos que provocam dano ao jogador.
 - **Aparições da Emparedada da Rua Nova** - Inimigos que provocam dano ao jogador.
 - **O Homem do Saco** - Inimigos que provocam dano ao jogador.
 
-### Mecânicas de Jogo
+### ⚙️ Mecânicas de Jogo
 - Movimento livre no mapa top-down.
 - Combate à distâcia por meio de disparos de Lanças.
 - Coleta de Almas do Capibaribe(XP), Fatias de Bolo de Rolo(cura) e Máscaras de Papangu(evento especial-onda que destrói inimigos mais fracos presentes na tela).
@@ -190,7 +190,7 @@ python src/main.py
 ---
 
 <a id="itens"></a>
-## 7. Personagens Presentes no Jogo(Jogador e Inimigos)
+## 🎭 7. Personagens Presentes no Jogo(Jogador e Inimigos)
 
 | Personagem | Sprite | Descrição |
 | :---: | :---: | :---: |
@@ -240,21 +240,21 @@ Utilização de funções para agrupar blocos de código reutilizáveis, o que f
 ---
 
 <a id="desafios"></a>
-## 11. Desafios, Erros e Aprendizados
+## 🚧 11. Desafios, Erros e Aprendizados
 
-### Maior Erro
+### ❌ Maior Erro
 A gestão de tempo poderia ter sido melhor abordada pelo grupo. Cada integrante com suas demandas externas tentou dar o melhor de si para ajustar esses entraves, que foram sendo superados para a finalização de cada uma das demandas associadas ao projeto.
 
-### Maior Desafio
+### 🔥 Maior Desafio
 Aprendizado de novas ferramentas como Git/GitHub e a gestão de tempo na realização de demandas do projeto em meio a outros compromissos externos ao projeto.
 
-### Lições Aprendidas
+### ✅ Lições Aprendidas
 A importância do trabalho em equipe ficou evidente ao longo do desenvolvimento do projeto, com integrantes a disposição para auxiliar e tirar dúvidas sobre os novos conceitos e ferramentas, durante as tarefas e demandas, ou dificuldades que surgiram no decorrer do projeto. A importância da gestão do tempo foi essencial para uma boa realização de um projeto desse escopo. Somado a isso, o trabalho colaborativo, atrelado a comunicação dinâmica(por meio de aplicativos), foi essencial para a realização do projeto, apesar das dificuldades enfrentadas com entendimento sobre ferramentas como Git e GitHub. Essas duas ferramentas nos proporcionaram um melhor entendimento de como se realizar trabalhos em equipe em um projeto de multiplas contribuições.
 
 ---
 
 <a id="galeria"></a>
-## 12. Galeria / Capturas de tela
+## 📸 12. Galeria / Capturas de tela
 
 <div align="center">
 <table width="100%">
