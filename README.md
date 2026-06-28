@@ -158,6 +158,14 @@ python -m venv .venv
 ```bash
 .venv\Scripts\Activate.ps1
 ```
+#### 3.1 Se der Erro:
+```bash
+# Se der erro de "execução de scripts desabilitada", rode este primeiro:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Depois, ative o ambiente:
+.venv\Scripts\Activate.ps1
+```
 #### No Windows(Prompt CMD tradicional):
 ```bash
 .venv\Scripts\Activate.bat
