@@ -138,6 +138,11 @@ A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero
 <a id="instalacao"></a>
 ## 🚀 4. Como Instalar e Rodar o Jogo:
 
+### 0. Pré-requisitos
+```
+* Python 3.10 ou superior instalado.
+* Git configurado na máquina.
+```
 ### 1. Clone o Repositório
 ```bash
 git clone https://github.com/aaof93/sobrevivencia-pernambucana.git
