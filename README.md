@@ -9,6 +9,9 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
   - [1.2 Divisão de tarefas](#divisao)
 - [2. Principais Objetivos](#objetivos)
 - [3. Sobre o Jogo](#sobre)
+  - [3.1 História](#historia)
+  - [3.2 Personagens](#personagens)
+  - [3.3 Mecânicas](#mecanicas)
 - [4. Como Instalar e Rodar o Jogo](#instalacao)
 - [5. Controles](#controles)
 - [6. Itens, Objetos e Recursos do Jogo](#itens)
@@ -111,9 +114,11 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 
 **Recife Assombrado** é um jogo no estilo "bullet heaven" (Vampire Survivors) feito em Python com Pygame e POO, inspirado no folclore, cultura e pontos turísticos de Pernambuco.
 
-### 📜 História
+<a id="historia"></a>
+### 📜 3.1 História
 A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero(onde tudo se inicia) e precisam lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
 
+<a id="personagens"></a>
 ### 🎭 Personagens
 - **Passista de Frevo** - Persinagem principal e jogável.
 - **Caboclo de Lança** - Personagem principal e jogável.
@@ -121,6 +126,7 @@ A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero
 - **Aparições da Emparedada da Rua Nova** - Inimigos que provocam dano ao jogador.
 - **O Homem do Saco** - Inimigos que provocam dano ao jogador.
 
+<a id="mecanicas"></a>
 ### ⚙️ Mecânicas de Jogo
 - Movimento livre no mapa top-down.
 - Combate à distâcia por meio de disparos de Lanças.
