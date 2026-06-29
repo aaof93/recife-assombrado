@@ -116,7 +116,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 
 <a id="historia"></a>
 ### 📜 3.1 História
-A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero(onde tudo se inicia) e precisam lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
+A Passista de Frevo, ou o Caboclo de Lança, começa a sua jornada no Marco Zero(onde tudo se inicia) e precisa lutar contra figuras folclóricas da cultura pernambucana com o intuito de sobreviver e demonstrar a superação do medo, digna do Leão do Norte.
 
 <a id="personagens"></a>
 ### 🎭 3.2 Personagens
