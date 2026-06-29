@@ -89,7 +89,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 <a id="divisao"></a>
 ### 📋 1.2 Divisão de Tarefas
 
-- **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável 
+- **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável pela criação do repositório do GitHub e pela parte do código referente as colisões e ao jogador.
 - **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável 
 - **Kauan Gabriel de Oliveira <kgo>:** Responsável 
 - **Lucas de Assis Silva<las11>:** Responsável pelo design do cenário e pela implantação e deployment do jogo
