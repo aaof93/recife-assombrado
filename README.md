@@ -92,7 +92,7 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 - **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável 
 - **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável 
 - **Kauan Gabriel de Oliveira <kgo>:** Responsável 
-- **Lucas de Assis Silva<las11>:** Responsável 
+- **Lucas de Assis Silva<las11>:** Responsável pelo design do cenário e pela implantação e deployment do jogo
 - **Matheus Miranda Borges dos Santos <mmbs2>:** Responsável pela parte do código referente aos coletáveis e pela elaboração do relatório.
 - **Ubiratan Jose Rodrigues de Lima Junior <ujrlj>:** Responsável 
 
