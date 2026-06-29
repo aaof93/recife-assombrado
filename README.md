@@ -225,8 +225,65 @@ python src/main.py
 ## 🏠 8. Estrutura / Arquitetura do Projeto
 
 ```text
-📂 projeto
-├──
+📂projeto
+├──📂.idea
+├──📂Prints do projeto
+├──📂src
+|  ├──📂__pycache__
+|  |  ├──armas.cpython-312.pyc
+|  |  ├──cartas.cpython-312.pyc
+|  |  ├──cenario.cpython-312.pyc
+|  |  ├──config.cpython-312.pyc
+|  |  ├──inimigos.cpython-312.pyc
+|  |  ├──itens.cpython-312.pyc
+|  |  ├──jogador.cpython-312.pyc
+|  |  ├──jogo.cpython-312.pyc
+|  |  ├──jogo.cpython-314.pyc
+|  |  └──sons,cpython-312.pyc
+|  ├──📂assets
+|  |  ├──a_praieira.mp3
+|  |  ├──alma.png
+|  |  ├──bolo.png
+|  |  ├──botao_como_jogar.png
+|  |  ├──botao_descricao.png
+|  |  ├──botao_jogar.png
+|  |  ├──botao_jogar_novamente.png
+|  |  ├──caboclo_direita.png
+|  |  ├──caboclo_esquerda.png
+|  |  ├──da_lama_ao_caos_estilo.mp3
+|  |  ├──emparedada_direita.png
+|  |  ├──emparedada_esquerda.png
+|  |  ├──frevo_direita.png
+|  |  ├──frevo_esquerda.png
+|  |  ├──homem_saco_direita.png
+|  |  ├──homem_saco_esquerda.png
+|  |  ├──intro_sob_pe.mp3
+|  |  ├──lanca_final.png
+|  |  ├──marco_zero.png
+|  |  ├──mascara.png
+|  |  ├──perna_cabeluda_direita.png
+|  |  ├──perna_cabeluda_esquerda.png
+|  |  ├──rua_bom_jesus.png
+|  |  ├──sombrinha_giratoria.png
+|  |  ├──tela_game_over.jpg
+|  |  └──tela_inicial.jpg
+|  |  
+|  ├──armas.py
+|  ├──cartas.py
+|  ├──cenario.py
+|  ├──config.py
+|  ├──inimigos.py
+|  ├──itens.py
+|  ├──jogador.py
+|  ├──jogo.py
+|  ├──main.py
+|  └──sons.py
+|  
+├──.gitignore.py
+├──LICENSE
+├──README.md
+├──ideia.md
+└──requirements.txt
 ```
 
 ---
