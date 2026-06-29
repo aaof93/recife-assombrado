@@ -239,7 +239,8 @@ python src/main.py
 |  |  ├──jogador.cpython-312.pyc
 |  |  ├──jogo.cpython-312.pyc
 |  |  ├──jogo.cpython-314.pyc
-|  |  └──sons,cpython-312.pyc
+|  |  └──sons.cpython-312.pyc
+|  |
 |  ├──📂assets
 |  |  ├──a_praieira.mp3
 |  |  ├──alma.png
