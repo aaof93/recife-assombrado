@@ -90,11 +90,11 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 ### 📋 1.2 Divisão de Tarefas
 
 - **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável pela criação do repositório do GitHub e pela parte do código referente as colisões e ao jogador.
-- **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável 
-- **Kauan Gabriel de Oliveira <kgo>:** Responsável 
-- **Lucas de Assis Silva<las11>:** Responsável pelo design do cenário e pela implantação e deployment do jogo
+- **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável pela parte do código referente aos inimigos e pelo arquivo main.
+- **Kauan Gabriel de Oliveira <kgo>:** Responsável pela parte do código referente ao personagem principal.
+- **Lucas de Assis Silva<las11>:** Responsável pelo design do cenário e pela implantação e deployment do jogo.
 - **Matheus Miranda Borges dos Santos <mmbs2>:** Responsável pela parte do código referente aos coletáveis e pela elaboração do relatório.
-- **Ubiratan Jose Rodrigues de Lima Junior <ujrlj>:** Responsável 
+- **Ubiratan Jose Rodrigues de Lima Junior <ujrlj>:** Responsável pela 
 
 ---
 
