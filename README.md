@@ -74,8 +74,8 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 </td>
 
 <td align="center">
-<a href="https://github.com/Matheus-MB1">
-<img src="https://avatars.githubusercontent.com/u/240080750?v=4" width="100px"><br/>
+<a href="https://github.com/JoseUbira/">
+<img src="https://avatars.githubusercontent.com/u/189497672?v=4" width="100px"><br/>
 <sub><b>Ubiratan Jose Rodrigues de Lima Junior </b></sub>
 </a></br>
 <sub>ujrlj</sub>
