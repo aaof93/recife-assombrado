@@ -294,7 +294,8 @@ python src/main.py
 
 - **Python**: Linguagem de programação utilizada no desenvolvimento do jogo.
 - **Pygame-ce**: Biblioteca pricipal para desenvolvimento 2D, renderização, eventos e áudio.
-- **Gemini**: Utilizado para a criação de telas de início e fim de jogo. E a criação de alguns sprites utilizados no jogo. 
+- **Gemini**: Utilizado para a criação de telas de início e fim de jogo. E a criação de alguns sprites utilizados no jogo.
+- **Pycharm**: Editor de código para escrita e depuração.
 - **Visual Studio Code (VS Code)**: Editor de código para escrita e depuração.
 - **Git & GitHub**: Versionamento de código e colaboração.
 - **w3schools**: Fonte complementar de aprendizado.
