@@ -224,6 +224,12 @@ python src/main.py
 <a id="estrutura"></a>
 ## 🏠 8. Estrutura / Arquitetura do Projeto
 
+A arquitetura do software foi concebida sob o paradigma da **Programação Orientada a Objetos (POO)**, visando o encapsulamento de lógicas, alta coesão e baixo acoplamento. O projeto segue um modelo de separação de responsabilidades estruturado da seguinte forma:
+
+- **Módulo Principal (`main.py` e `jogo.py`):** Atuam como o motor central da aplicação, gerenciando o laço principal de repetição (*Game Loop*), a renderização de quadros por segundo (FPS) e a detecção de colisões bidimensionais.
+- **Entidades (`jogador.py`, `inimigos.py`, `itens.py` e `armas.py`):** Módulos que contêm as classes instanciáveis. Fazem uso intensivo de herança para padronizar comportamentos comuns (como movimentação e renderização de caixas de colisão) enquanto aplicam polimorfismo para características específicas de cada objeto.
+- **Recursos Estáticos (`assets/`, `config.py`, `sons.py`, `cenario.py`):** Isolam constantes do sistema, gerenciamento de memória de mídia (cache de imagens e áudios) e definições globais, evitando o uso de *"magic numbers"* no código principal e facilitando a manutenção.
+
 ```text
 📂projeto
 ├──📂.idea
@@ -289,32 +295,39 @@ python src/main.py
 
 ---
 
+### Substitua a seção "9. Ferramentas, Bibliotecas e Frameworks Utilizados" por este bloco:
+
+```markdown
 <a id="ferramentas"></a>
 ## 🛠️ 9. Ferramentas, Bibliotecas e Frameworks Utilizados
 
-- **Python**: Linguagem de programação utilizada no desenvolvimento do jogo.
-- **Pygame-ce**: Biblioteca pricipal para desenvolvimento 2D, renderização, eventos e áudio.
-- **Gemini**: Utilizado para a criação de telas de início e fim de jogo. E a criação de alguns sprites utilizados no jogo.
-- **Pycharm**: Editor de código para escrita e depuração.
-- **Visual Studio Code (VS Code)**: Editor de código para escrita e depuração.
-- **Git & GitHub**: Versionamento de código e colaboração.
-- **w3schools**: Fonte complementar de aprendizado.
-- **Youtube**: Fonte complementar de aprendizado.
+- **Python**: Adotada por sua sintaxe legível e vasta documentação. Permite a rápida prototipagem de sistemas orientados a objetos e fácil integração com bibliotecas de renderização gráfica.
+- **Pygame-ce (Community Edition)**: Escolhida em detrimento da biblioteca Pygame padrão devido às suas melhorias significativas de performance na renderização em tela e correções de bugs, garantindo uma taxa de quadros (FPS) estável mesmo com o processamento de dezenas de instâncias de inimigos simultaneamente.
+- **Git & GitHub**: Essenciais para o controle de versão e integração contínua do código. A ferramenta permitiu o desenvolvimento paralelo entre os seis membros da equipe, mitigando conflitos de edição e garantindo o versionamento seguro das implementações.
+- **Gemini**: Utilizado para a criação de telas de início e fim de jogo, além do auxílio na elaboração de lógicas complexas e de alguns sprites utilizados no jogo.
+- **Pycharm & Visual Studio Code (VS Code)**: Editores de código utilizados para escrita, formatação e depuração da aplicação.
+- **w3schools & Youtube**: Fontes complementares de aprendizado consultadas para referências rápidas e tutoriais de implementação.
 
 ---
 
 <a id="conceitos"></a>
 ## 🧠 10. Conceitos da Disciplina Aplicados
 
-### Estruturas Condicionais
+### Estruturas Condicionais e de Repetição
+O laço `while` é a base estrutural do *Game Loop* no método `executar()` do arquivo `jogo.py`.
+As estruturas `if/elif/else` gerenciam o mapeamento de teclas no método `mover()` do arquivo `jogador.py` e o controle minucioso de estados do jogo (menu, seleção, gameplay, game over) em `jogo.py`.
 Foram utilizadas para compor o comportamento do jogo a partir de decisões lógicas.
 Exemplo: Ao clicar com o mause o botão o jogo inicia; ao pressionar a tecla Esc é possivel retornar ao menu, se selecionados as teclas 1, 2 ou 3, em uma determinada parte do jogo, uma das cartas de aprimoramento são adicionadas ao jogo. Um outro exemplo: se o jogador colide com o inimgo ocorre o evento dano.
 
 ### Programação Orientada a Objetos
 O projeto foi estruturado com base em Programação Orientada a Objetos, utilizando Classes, métodos construtores, métodos e atributos para representar entidades como jogador, inimgos e itens coletáveis.
+Classes abstratas e conceitos de herança estão amplamente presentes, como visto no arquivo `inimigos.py`, onde as classes `PernaCabeluda`, `Emparedada` e `HomemDoSaco` herdam da superclasse ancestral `InimigoBase`, reaproveitando métodos estruturais fundamentais (como `obter_retangulo()` e `desenhar_barra_vida()`).
 
 ### Funções
 Utilização de funções para agrupar blocos de código reutilizáveis, o que facilita na legibilidade, manutenção e organização do código.
+
+### Polimorfismo
+Este conceito é evidenciado principalmente nas classes de armamentos (`armas.py`) e itens (`itens.py`), onde diferentes objetos derivados implementam comportamentos e efeitos distintos ao colidirem (ex: A `AlmaCapibaribe` fornece incremento à barra de XP, enquanto o `BoloDeRolo` afeta diretamente o atributo de HP do jogador instanciado).
 
 ---
 
@@ -322,13 +335,20 @@ Utilização de funções para agrupar blocos de código reutilizáveis, o que f
 ## 🚧 11. Desafios, Erros e Aprendizados
 
 ### ❌ Maior Erro
-A gestão de tempo poderia ter sido melhor abordada pelo grupo. Cada integrante com suas demandas externas tentou dar o melhor de si para ajustar esses entraves, que foram sendo superados para a finalização de cada uma das demandas associadas ao projeto.
+O principal equívoco do projeto residiu na substimação da complexidade inerente ao desenvolvimento de software e no mau dimensionamento do tempo necessário para a integração dos módulos individuais.
+Na fase de concepção, a ausência de experiência prévia fez com que a equipe minimizasse a dificuldade de transpor ideias teóricas para a prática, resultando em discussões prolongadas e inconclusivas sobre o escopo do jogo.
+Inicialmente, a arquitetura foi planejada de forma ineficiente para conter apenas cinco módulos, mas ao longo do processo percebeu-se a necessidade de expansão, exigindo a criação imprevista de novos arquivos estruturais para gerenciar áudios, sistema de cartas e transições de cenários. Essa imprecisão no dimensionamento arquitetônico resultou no não cumprimento de deadlines internas, forçando a equipe a reajustar cronogramas continuamente.
+Ademais, o volume de horas despendido no desenvolvimento prático superou bastante as projeções iniciais, gerando impactos diretos e negativos na gestão de tempo dos integrantes em relação a outras exigências acadêmicas, especialmente durante o período de avaliações. Para mitigar essas falhas de planejamento, a equipe precisou reestruturar o escopo lógico — priorizando a robustez dos requisitos mínimos — e implementou uma rotina de reuniões de alinhamento mais frequentes, aliada a uma comunicação intensiva via aplicativos de mensagens para conter o atraso nas entregas.
 
 ### 🔥 Maior Desafio
-Aprendizado de novas ferramentas como Git/GitHub e a gestão de tempo na realização de demandas do projeto em meio a outros compromissos externos ao projeto.
+O desafio técnico mais substancial enfrentado pela equipe consistiu na abrupta transição de paradigma de programação. Tendo acompanhado uma ementa focada em lógicas lineares e estruturadas durante os três primeiros meses da disciplina, o grupo deparou-se com a necessidade de assimilar e aplicar do zero a Programação Orientada a Objetos (POO) — compreendendo abstrações como classes, herança e polimorfismo — em um curto intervalo de menos de duas semanas. Essa defasagem de conhecimento gerou períodos de desorientação técnica sobre as etapas de desenvolvimento, sendo parcialmente superada mediante horas de estudo autodidata através de plataformas de vídeo (YouTube).
+Em paralelo, a compatibilização do código em um ambiente colaborativo via Git/GitHub configurou-se como um obstáculo crítico. A inexperiência com o desenvolvimento simultâneo fez com que a junção de trechos funcionais individuais frequentemente resultasse em falhas sistêmicas (quebras) no jogo, evidenciando a extrema dificuldade de intervir e realizar manutenção em códigos desenvolvidos por terceiros.
+Por fim, a ausência de habilidades em design gráfico e gestão de projetos colaborativos foi contornada com a intervenção da monitoria: substituímos os protótipos geométricos iniciais (círculos e quadrados) por assets visuais gerados via Inteligência Artificial (Gemini), ferramenta que também foi fundamental para auxiliar a equipe na elaboração lógica dos próximos passos e na distribuição equilibrada das tarefas.
 
 ### ✅ Lições Aprendidas
-A importância do trabalho em equipe ficou evidente ao longo do desenvolvimento do projeto, com integrantes a disposição para auxiliar e tirar dúvidas sobre os novos conceitos e ferramentas, durante as tarefas e demandas, ou dificuldades que surgiram no decorrer do projeto. A importância da gestão do tempo foi essencial para uma boa realização de um projeto desse escopo. Somado a isso, o trabalho colaborativo, atrelado a comunicação dinâmica(por meio de aplicativos), foi essencial para a realização do projeto, apesar das dificuldades enfrentadas com entendimento sobre ferramentas como Git e GitHub. Essas duas ferramentas nos proporcionaram um melhor entendimento de como se realizar trabalhos em equipe em um projeto de multiplas contribuições.
+A principal lição extraída deste projeto é a validação de que a construção de um software transcende a mera escrita de algoritmos, dependendo fundamentalmente de um planejamento arquitetônico prévio. A experiência demonstrou a criticidade da engenharia de software na prática: metodologias como a componentização do código em múltiplos arquivos, o encapsulamento de métodos e a adoção de boas práticas tornaram-se fundamentais para garantir a integridade do sistema quando múltiplos desenvolvedores interagem com a mesma base de código.
+Além disso, a importância do trabalho em equipe e da resiliência coletiva ficou evidente ao longo do desenvolvimento do projeto; a disposição dos integrantes para auxiliar mutuamente nas dúvidas sobre os novos paradigmas (POO) e durante as falhas de compatibilização foi o alicerce que sustentou o avanço do jogo. Apesar das inúmeras frustrações enfrentadas com o aprendizado acelerado e os conflitos de versionamento no GitHub, essas adversidades proporcionaram um entendimento prático sobre a dinâmica real e desafiadora do desenvolvimento colaborativo de software.
+Conclui-se que o uso disciplinado de repositórios, aliado à comunicação transparente e à flexibilidade para readaptar rotas, é essencial para entregar um produto final coeso, funcional e que atenda aos requisitos acadêmicos estabelecidos.
 
 ---
 
