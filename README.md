@@ -89,16 +89,6 @@ Relatório de desenvolvimento do jogo Recife Assombrado, desenvolvido para a dis
 <a id="divisao"></a>
 ### 📋 1.2 Divisão de Tarefas
 
-- **Amanda Almeida de Oliveira Figueredo  <aaof>:** Responsável pela criação do repositório do GitHub e pela parte do código referente as colisões e ao jogador.
-- **Geraldo Camargo Costa Maia Junior<gccmj>:** Responsável pela parte do código referente aos inimigos e pelo arquivo main.
-- **Kauan Gabriel de Oliveira <kgo>:** Responsável pela parte do código referente ao personagem principal.
-- **Lucas de Assis Silva<las11>:** Responsável pelo design do cenário e pela implantação e deployment do jogo.
-- **Matheus Miranda Borges dos Santos <mmbs2>:** Responsável pela parte do código referente aos coletáveis e pela elaboração do relatório.
-- **Ubiratan Jose Rodrigues de Lima Junior <ujrlj>:** Responsável pela
-
-<a id="divisao"></a>
-### 📋 1.2 Divisão de Tarefas
-
 - **Amanda Almeida de Oliveira Figueredo <aaof>:** Responsável pela adaptação cultural e concepção criativa do projeto (contextualização para a temática pernambucana, definição formal de coletáveis e inimigos), estruturação do documento base de requisitos (`ideia.md`), inicialização e gestão do repositório no GitHub, arquitetura dos módulos iniciais, desenvolvimento da lógica bidimensional de colisões e da classe do jogador. Atuou também na revisão e consolidação do relatório e da apresentação de slides.
 - **Geraldo Camargo Costa Maia Junior <gccmj>:** Responsável pelo desenvolvimento da classe de inimigos e estruturação do laço principal (*Game Loop* no `main.py`). Desempenhou papel fundamental na resolução de conflitos de versionamento e compatibilização de código (*merge* e *bug fixing*), na expansão da arquitetura de software (identificação da necessidade de novos módulos) e na geração dos *assets* visuais do projeto.
 - **Kauan Gabriel de Oliveira <kgo>:** Responsável pela codificação e implementação das mecânicas, atributos e métodos específicos atrelados à classe do personagem principal.
