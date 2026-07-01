@@ -54,29 +54,3 @@ O coração técnico do software destaca-se pela aplicação rigorosa de padrõe
 Para suportar a renderização de multidões de entidades simultâneas sem queda de FPS (quadros por segundo), o sistema implementa gerenciadores de grupos customizados (**Render Groups**baseados em `pygame.sprite.Group`). Esses grupos instanciam e destroem automaticamente os objetos na memória conforme eles entram ou saem da área de processamento visual contígua ao jogador.
 
 ---
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-* Python 3.10 ou superior instalado.
-* Git configurado na máquina.
-
-### Passo a Passo
-
-```bash
-# 1. Clone o repositório
-git clone [https://github.com/aaof93/sobrevivencia-pernambucana.git](https://github.com/aaof93/sobrevivencia-pernambucana.git)
-
-# 2. Acesse a pasta
-cd sobrevivencia-pernambucana
-
-# 3. Crie e ative o ambiente virtual (Recomendado)
-python -m venv venv
-# No Windows (CMD):
-venv\Scripts\activate
-
-# 4. Instale as dependências
-pip install pygame
-
-# 5. Execute o jogo
-python src/main.py
