@@ -295,9 +295,6 @@ A arquitetura do software foi concebida sob o paradigma da **Programação Orien
 
 ---
 
-### Substitua a seção "9. Ferramentas, Bibliotecas e Frameworks Utilizados" por este bloco:
-
-```markdown
 <a id="ferramentas"></a>
 ## 🛠️ 9. Ferramentas, Bibliotecas e Frameworks Utilizados
 
@@ -396,5 +393,7 @@ Conclui-se que o uso disciplinado de repositórios, aliado à comunicação tran
       <img src="https://github.com/aaof93/sobrevivencia-pernambucana/blob/main/Prints%20do%20projeto/Print8.png" alt"Print 8" width="100%">
       <br><sub>Tela de Game over (fim de jogo)</sub>
     </td>
+
+
 
 
