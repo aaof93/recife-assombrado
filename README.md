@@ -251,7 +251,7 @@ A arquitetura do software foi concebida sob o paradigma da **Programação Orien
 |  └──sons.py           |#Controle do sistema de efeitos sonoros e músicas de fundo.
 |  
 ├──.gitignore           |#Arquivos que o Git deve ignorar.
-├──LICENSE              |#Liçensa
+├──LICENSE              |#Licença
 ├──README.md            |#Relatório do projeto/Manual do projeto.
 ├──ideia.md             |#Rascunho de ideias.
 └──requirements.txt     |#Lista de bibliotecas para instalar.
