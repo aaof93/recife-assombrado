@@ -233,65 +233,28 @@ A arquitetura do software foi concebida sob o paradigma da **Programação Orien
 
 ```text
 📂projeto
-├──📂.idea
-├──📂Prints do projeto
-├──📂src
-|  ├──📂__pycache__
-|  |  ├──armas.cpython-312.pyc
-|  |  ├──cartas.cpython-312.pyc
-|  |  ├──cenario.cpython-312.pyc
-|  |  ├──config.cpython-312.pyc
-|  |  ├──inimigos.cpython-312.pyc
-|  |  ├──itens.cpython-312.pyc
-|  |  ├──jogador.cpython-312.pyc
-|  |  ├──jogo.cpython-312.pyc
-|  |  ├──jogo.cpython-314.pyc
-|  |  └──sons.cpython-312.pyc
-|  |
-|  ├──📂assets
-|  |  ├──a_praieira.mp3
-|  |  ├──alma.png
-|  |  ├──bolo.png
-|  |  ├──botao_como_jogar.png
-|  |  ├──botao_descricao.png
-|  |  ├──botao_jogar.png
-|  |  ├──botao_jogar_novamente.png
-|  |  ├──caboclo_direita.png
-|  |  ├──caboclo_esquerda.png
-|  |  ├──da_lama_ao_caos_estilo.mp3
-|  |  ├──emparedada_direita.png
-|  |  ├──emparedada_esquerda.png
-|  |  ├──frevo_direita.png
-|  |  ├──frevo_esquerda.png
-|  |  ├──homem_saco_direita.png
-|  |  ├──homem_saco_esquerda.png
-|  |  ├──intro_sob_pe.mp3
-|  |  ├──lanca_final.png
-|  |  ├──marco_zero.png
-|  |  ├──mascara.png
-|  |  ├──perna_cabeluda_direita.png
-|  |  ├──perna_cabeluda_esquerda.png
-|  |  ├──rua_bom_jesus.png
-|  |  ├──sombrinha_giratoria.png
-|  |  ├──tela_game_over.jpg
-|  |  └──tela_inicial.jpg
+├──📂.idea             |#Configurações automáticas da IDE(Pycharm)
+├──📂Prints do projeto |#Capturas de tela, com o jogo em funcionamento, para a galeria do relatório.
+├──📂src               |#Diretório principal que concentra todo o código fonte e os recursos do jogo
+|  ├──📂__pycache__    |#Arquivos temporários criados pelo Python para rodar o código mais rápido.
+|  ├──📂assets         |#Pasta reservada para guardar imagens, sprites, fontes e aúdios.
 |  |  
-|  ├──armas.py
-|  ├──cartas.py
-|  ├──cenario.py
-|  ├──config.py
-|  ├──inimigos.py
-|  ├──itens.py
-|  ├──jogador.py
-|  ├──jogo.py
-|  ├──main.py
-|  └──sons.py
+|  ├──armas.py          |#Mecânicas específicas e objetos interativos que o jogador pode usar.
+|  ├──cartas.py         |#Mecânicas específicas e objetos interativos que o jogador pode usar.
+|  ├──cenario.py        |#Gerenciamento do mapa, planos de fundo e colisões do ambiente.
+|  ├──config.py         |#Variáveis globais e configurações(tamanho da tela, cores, FPS)
+|  ├──inimigos.py       |#Lógica, atributos e movimentos dos personagens do jogo.
+|  ├──itens.py          |#Mecânicas específicas e objetos interativos que o jogador pode usar.
+|  ├──jogador.py        |#Lógica, atributos e movimentos dos personagens do jogo.
+|  ├──jogo.py           |#Gerencia o fluxo principal(loop do jogo, telas menus e eventos).
+|  ├──main.py           |O arquivo principal que inicializa e roda o jogo.
+|  └──sons.py           |#Controle do sistema de efeitos sonoros e músicas de fundo.
 |  
-├──.gitignore.py
-├──LICENSE
-├──README.md
-├──ideia.md
-└──requirements.txt
+├──.gitignore           |#Arquivos que o Git deve ignorar.
+├──LICENSE              |#Liçensa
+├──README.md            |#Relatório do projeto/Manual do projeto.
+├──ideia.md             |#Rascunho de ideias.
+└──requirements.txt     |#Lista de bibliotecas para instalar.
 ```
 
 ---
