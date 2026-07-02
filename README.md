@@ -247,7 +247,7 @@ A arquitetura do software foi concebida sob o paradigma da **Programação Orien
 |  ├──itens.py          |#Mecânicas específicas e objetos interativos que o jogador pode usar.
 |  ├──jogador.py        |#Lógica, atributos e movimentos dos personagens do jogo.
 |  ├──jogo.py           |#Gerencia o fluxo principal(loop do jogo, telas menus e eventos).
-|  ├──main.py           |O arquivo principal que inicializa e roda o jogo.
+|  ├──main.py           |#O arquivo principal que inicializa e roda o jogo.
 |  └──sons.py           |#Controle do sistema de efeitos sonoros e músicas de fundo.
 |  
 ├──.gitignore           |#Arquivos que o Git deve ignorar.
